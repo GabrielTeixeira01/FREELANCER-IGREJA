@@ -4,4 +4,4 @@ Para a etapa de deploy e publicação do projeto, utilizei a plataforma Netlify,
 
 Coloquei todos os links de acesso da igreja, Instagram, eventos e etc, assim facilitando o acesso de pesquisa para os visitantes.
 
-Foi uma experiência muito especial poder usar a tecnologia para contribuir com algo que faz parte da minha vida. 👨‍💻💟
+Foi uma experiência muito especial poder usar a tecnologia para contribuir com algo que faz parte da minha vida. 👨‍💻
