@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta name="google-site-verification" content="zu6E50n_B0tlNlqDD0rCYaftBBYlFQqlFug1Xa_8kOU" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1iec Nilópolis</title>
+    <link rel="icon" type="image/jpeg" href="logo.jpg">
+    <link rel="apple-touch-icon" href="logo.jpg">
+
+    <!-- Fonts -->
+    <link
+        href="https://api.fontshare.com/v2/css?f[]=clash-display@200,400,500,600,700&f[]=satoshi@300,400,500,700&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Ambient Glow Backgrounds -->
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+
+    <!-- Header / Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="logo-container">
+            <img src="logo.jpg" alt="1iec Logo" class="logo-img"
+                onerror="this.src='https://cdn-icons-png.flaticon.com/512/2069/2069818.png'; this.style.filter='invert(1) sepia(1) saturate(5) hue-rotate(340deg)'">
+            <div class="logo-text">1IEC NILÓPOLIS</div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Liderança</a></li>
+            <li><a href="#schedule">Cultos</a></li>
+            <li><a href="https://www.instagram.com/stories/highlights/18087403022233354/"
+                    target="_blank">Programação</a></li>
+            <li><a href="#location">Localização</a></li>
+            <li><a href="#contribuicao">Contribuição</a></li>
+        </ul>
+        <div class="menu-btn">
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-video">
+            <!-- Emulating a video background with a deep, dynamic gradient/image for modern feel -->
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="badge-tag" data-aos="fade-up">Seja Bem-Vindo à Nossa Família</div>
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">1IEC <br><span
+                    class="gradient-text">NILÓPOLIS</span></h1>
+
+            <div class="hero-verse-box" data-aos="fade-up" data-aos-delay="200">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <p>"Há um só corpo e um só Espírito... Um só Senhor, uma só fé, um só batismo; Um só Deus e Pai de
+                    todos."</p>
+                <div class="verse-ref">Efésios 4:1-6</div>
+            </div>
+
+            <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
+                <a href="#schedule" class="btn btn-primary">
+                    <span>Nossos Horários</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="#location" class="btn btn-secondary">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Como Chegar</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span class="scroll-text">Deslize para baixo</span>
+        </div>
+    </section>
+
+    <!-- Pastor Section -->
+    <section class="pastor" id="about">
+        <div class="container">
+            <div class="pastor-wrapper reveal">
+                <div class="pastor-img-container">
+                    <img src="pastor.png" alt="Pastor Rodrigo Gama" class="pastor-img">
+                </div>
+                <div class="pastor-info">
+                    <span class="pastor-tag">Liderança</span>
+                    <h2 class="pastor-name">Pr. Rodrigo <span class="gradient-text">Gama</span></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section (Modern Bento Grid Style) -->
+    <section class="schedule" id="schedule">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Nossos <span>Encontros</span></h2>
+                <p class="section-subtitle">Junte-se a nós semanalmente para momentos de adoração, comunhão e
+                    aprendizado da Palavra.</p>
+            </div>
+
+            <div class="bento-grid">
+                <!-- Sunday Main Card -->
+                <div class="bento-card featured reveal" style="--delay: 1">
+                    <div class="card-bg-gradient"></div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <div class="day-badge">Domingo</div>
+                            <i class="fa-solid fa-sun highlight-icon"></i>
+                        </div>
+                        <h3>Dia do Senhor</h3>
+                        <p class="card-desc">Nosso encontro principal de celebração e adoração em família.</p>
+
+                        <div class="timeline">
+
+                            <div class="time-slot">
+                                <div class="time">09:00</div>
+                                <div class="event">
+                                    <h4>Culto Matutino</h4>
+                                    <span>Adoração e estudo da Palavra</span>
+                                </div>
+                            </div>
+                            <div class="time-slot highlight">
+                                <div class="time">18:30</div>
+                                <div class="event">
+                                    <h4>Culto Noturno</h4>
+                                    <span>Celebração principal da igreja</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tuesday Card -->
+                <div class="bento-card secondary reveal" style="--delay: 2">
+                    <div class="card-bg-gradient"></div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <div class="day-badge">Terça-Feira</div>
+                            <i class="fa-solid fa-book-open highlight-icon"></i>
+                        </div>
+                        <h3>Culto de Ensino</h3>
+                        <p class="card-desc">Mergulhando mais fundo nas verdades das Escrituras.</p>
+
+                        <div class="timeline">
+                            <div class="time-slot">
+                                <div class="time">08:00</div>
+                                <div class="event">
+                                    <h4>Reunião de Oração</h4>
+                                    <span>Iniciando o dia na presença de Deus</span>
+                                </div>
+                            </div>
+                            <div class="time-slot highlight">
+                                <div class="time">19:30</div>
+                                <div class="event">
+                                    <h4>Culto de Ensino</h4>
+                                    <span>Estudo Bíblico nas Escrituras</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bento-card info reveal" style="--delay: 3">
+                    <div class="card-content centered">
+                        <div class="icon-ring">
+                            <i class="fa-solid fa-calendar-days"></i>
+                        </div>
+                        <h3>Agendamentos da Semana</h3>
+                        <p>Confira as atividades extras e agendamentos especiais em nosso Instagram.</p>
+                        <a href="https://www.instagram.com/stories/highlights/18087403022233354/" target="_blank"
+                            class="btn btn-primary" style="padding: 12px 24px; font-size: 0.9rem;">Ver Agendamentos <i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dízimos e Ofertas Section -->
+    <section class="offerings" id="contribuicao">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Dízimos e <span>Ofertas</span></h2>
+                <p class="section-subtitle">"Cada um dê conforme determinou em seu coração, não com pesar ou por
+                    obrigação, pois Deus ama quem dá com alegria." (2 Coríntios 9:7)</p>
+            </div>
+
+            <div class="offerings-grid">
+                <!-- PIX Card -->
+                <div class="pix-card reveal">
+                    <div class="pix-header">
+                        <div class="pix-badge">PIX</div>
+                        <i class="fa-solid fa-qrcode highlight-icon"></i>
+                    </div>
+                    <h3>Doar via PIX</h3>
+                    <p>Utilize nossa chave CNPJ para fazer sua contribuição de forma rápida e segura.</p>
+
+                    <div class="pix-key-box">
+                        <span class="key-label">Chave CNPJ:</span>
+                        <div class="key-value">28.730.620/0001-03</div>
+                        <button class="copy-btn" onclick="copyPixKey()">
+                            <i class="fa-regular fa-copy"></i>
+                            <span>Copiar</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Bank Card -->
+                <div class="bank-card reveal">
+                    <div class="bank-header">
+                        <img src="itau_logo_truly_transparent.png" alt="Itaú Logo" class="itau-logo-img">
+                        <h3>Transferência</h3>
+                    </div>
+                    <div class="bank-info-grid">
+                        <div class="info-item">
+                            <span class="label">Agência</span>
+                            <span class="value">1009</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Conta Corrente</span>
+                            <span class="value">30554-9</span>
+                        </div>
+                        <div class="info-item full">
+                            <span class="label">Nome</span>
+                            <span class="value">Igreja Evangélica Congregacional de Nilópolis</span>
+                        </div>
+                        <div class="info-item full">
+                            <span class="label">CNPJ</span>
+                            <span class="value">28.730.620/0001-03</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section (Ultra Modern) -->
+    <section class="location" id="location">
+        <div class="container container-large">
+            <div class="location-grid">
+
+                <div class="location-details reveal" style="--delay: 1">
+                    <h2 class="section-title">Nossa <span>Casa</span></h2>
+                    <p class="location-desc">Estamos localizados no coração de Nilópolis, com fácil acesso para todas as
+                        regiões.</p>
+
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <div class="icon-box"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="info">
+                                <h5>Nos encontre aqui</h5>
+                                <p>Estr. Gen. Mena Barreto, 550<br>Nilópolis - RJ</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="https://www.google.com/maps/place/Estr.+Gen.+Mena+Barreto,+550+-+Nil%C3%B3polis,+RJ"
+                        target="_blank" class="btn btn-primary glass-btn">
+                        <span>Traçar Rota no MAPS</span>
+                        <i class="fa-solid fa-location-arrow"></i>
+                    </a>
+                </div>
+
+                <div class="location-map reveal" style="--delay: 2">
+                    <div class="map-frame">
+                        <div class="map-overlay-corners"></div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14701.168642621453!2d-43.42436151478768!3d-22.80905324545041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99616d63435c2b%3A0xe54d24f469fc5ec4!2sEstr.%20Gen.%20Mena%20Barreto%2C%20550%20-%20Centro%2C%20Nil%C3%B3polis%20-%20RJ%2C%2026535-020!5e0!3m2!1spt-BR!2sbr!4v1714480000000!5m2!1spt-BR!2sbr"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Modern Footer -->
+    <footer class="modern-footer">
+        <div class="container">
+            <div class="footer-grid">
+
+                <div class="footer-links">
+                    <h4>Acesso Rápido</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#schedule">Cultos</a></li>
+                        <li><a href="#location">Localização</a></li>
+                        <li><a href="#contribuicao">Contribuição</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h4>Conecte-se</h4>
+                    <div class="social-pills">
+                        <a href="https://www.instagram.com/1iec_nilopolis/" class="social-pill" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                            <span>Siga no Instagram</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Primeira Igreja Evangélica Congregacional de Nilópolis.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
