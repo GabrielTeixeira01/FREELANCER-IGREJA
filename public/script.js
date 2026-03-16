@@ -1,8 +1,8 @@
-// Modern Interactions Script
+
 
 document.addEventListener('DOMContentLoaded', () => {
     
-    // --- Navbar Scroll Logic ---
+    
     const navbar = document.getElementById('navbar');
     
     window.addEventListener('scroll', () => {
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // --- Mobile Menu Toggle ---
+    
     const menuBtn = document.querySelector('.menu-btn');
     const navLinks = document.querySelector('.nav-links');
     const navItems = document.querySelectorAll('.nav-links a');
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // --- Smooth Scroll for anchors ---
+    
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // --- Scroll Intersection Observer for Reveals ---
+    
     const revealElements = document.querySelectorAll('.reveal');
     
     const revealOptions = {
@@ -66,9 +66,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const revealOnScroll = new IntersectionObserver(function(entries, observer) {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                // Add active class
+                
                 entry.target.classList.add('active');
-                // Optional: unobserve after revealing if you only want it to happen once
+                
                 observer.unobserve(entry.target);
             }
         });
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
         revealOnScroll.observe(el);
     });
 
-    // --- Simple JS "AOS-like" load animations for Hero ---
+    
     const heroElements = document.querySelectorAll('[data-aos]');
     heroElements.forEach(el => {
         const delay = el.getAttribute('data-aos-delay') || 0;
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// --- Copy PIX Key Logic ---
+
 function copyPixKey() {
     const keyText = "28.730.620/0001-03";
     navigator.clipboard.writeText(keyText).then(() => {

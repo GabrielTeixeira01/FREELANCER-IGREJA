@@ -1,13 +1,13 @@
-/* Ultra Modern style.css */
+
 :root {
-    /* Color Palette - Deep Dark Mode with vibrant Gold/Orange accents */
+    
     --surface-900: #050505;
     --surface-800: #0a0a0a;
     --surface-700: #141414;
     --surface-600: #1f1f1f;
     
-    --accent-primary: #eab308; /* Vibrant Yellow/Gold */
-    --accent-secondary: #f59e0b; /* Orange hue */
+    --accent-primary: #eab308;
+    --accent-secondary: #f59e0b;
     --accent-glow: rgba(234, 179, 8, 0.15);
     
     --text-100: #ffffff;
@@ -17,11 +17,11 @@
     
     --border-color: rgba(255, 255, 255, 0.08);
     
-    /* Typography */
+    
     --font-heading: 'Clash Display', sans-serif;
     --font-body: 'Satoshi', sans-serif;
     
-    /* Spacing & Utilities */
+    
     --transition-smooth: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
     --radius-lg: 24px;
     --radius-md: 16px;
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5 {
     max-width: 1400px;
 }
 
-/* Ambient Background Orbs */
+
 .glow-orb {
     position: fixed;
     border-radius: 50%;
@@ -90,9 +90,7 @@ h1, h2, h3, h4, h5 {
     background: radial-gradient(circle, rgba(245, 158, 11, 0.08) 0%, transparent 70%);
 }
 
-/* -------------------------------------
-   Modern Navbar
--------------------------------------- */
+
 .navbar {
     position: fixed;
     top: 20px;
@@ -130,7 +128,7 @@ h1, h2, h3, h4, h5 {
 .logo-img {
     height: 45px;
     width: 45px;
-    border-radius: 50%; /* Circle shape */
+    border-radius: 50%;
     object-fit: cover;
     transition: var(--transition-smooth);
 }
@@ -189,9 +187,7 @@ h1, h2, h3, h4, h5 {
     transition: var(--transition-smooth);
 }
 
-/* -------------------------------------
-   Hero Section
--------------------------------------- */
+
 .hero {
     min-height: 100vh;
     display: flex;
@@ -256,7 +252,7 @@ h1, h2, h3, h4, h5 {
     position: relative;
 }
 
-/* The glowing verse box */
+
 .hero-verse-box {
     background: rgba(255, 255, 255, 0.02);
     border: 1px solid rgba(255, 255, 255, 0.05);
@@ -302,7 +298,7 @@ h1, h2, h3, h4, h5 {
     justify-content: center;
 }
 
-/* Buttons */
+
 .btn {
     display: inline-flex;
     align-items: center;
@@ -341,7 +337,7 @@ h1, h2, h3, h4, h5 {
     transform: translateY(-2px);
 }
 
-/* Scroll Indicator */
+
 .scroll-indicator {
     position: absolute;
     bottom: 40px;
@@ -377,9 +373,7 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 2px;
 }
 
-/* -------------------------------------
-   Sections Global
--------------------------------------- */
+
 section {
     padding: 120px 0;
     position: relative;
@@ -408,12 +402,10 @@ section {
     font-size: 1.1rem;
 }
 
-/* -------------------------------------
-   Schedule (Bento Grid)
--------------------------------------- */
+
 .bento-grid {
     display: grid;
-    grid-template-columns: 1fr; /* Stack vertically on mobile */
+    grid-template-columns: 1fr;
     grid-gap: 20px;
     grid-auto-rows: minmax(200px, auto);
 }
@@ -422,7 +414,7 @@ section {
     grid-column: 1;
 }
 
-/* Make card content padding slightly tighter so it doesn't force a huge height */
+
 .bento-card {
     background: var(--surface-800);
     border: 1px solid var(--border-color);
@@ -451,7 +443,7 @@ section {
 }
 
 .card-content {
-    padding: 25px; /* Reduzido de 30px */
+    padding: 25px;
     position: relative;
     z-index: 2;
     height: 100%;
@@ -474,7 +466,7 @@ section {
     align-items: center;
     margin-bottom: 24px;
 }
-/* Pastor Section */
+
 .pastor {
     background: var(--surface-800);
 }
@@ -488,7 +480,7 @@ section {
 }
 
 .pastor-img-container {
-    flex: 0.8; /* Diminuído para reduzir a foto */
+    flex: 0.8; 
     position: relative;
     max-width: 450px;
 }
@@ -515,7 +507,7 @@ section {
 }
 
 .pastor-info {
-    flex: 1.4; /* Aumentado para dar mais destaque ao texto */
+    flex: 1.4; 
 }
 
 .pastor-tag {
@@ -523,7 +515,7 @@ section {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 1.4rem; /* Aumentado conforme solicitado */
+    font-size: 1.4rem; 
     margin-bottom: 15px;
     display: block;
 }
@@ -539,10 +531,10 @@ section {
     line-height: 1.8;
 }
 
-/* Banking / Itaú Badge */
+
 .bank-info {
     margin-top: 25px;
-    background: #003399; /* Itaú Blue */
+    background: #003399;
     padding: 12px 20px;
     border-radius: 12px;
     border: 1px solid rgba(255,255,255,0.1);
@@ -553,7 +545,7 @@ section {
 }
 
 .itau-icon {
-    background: #FF7800; /* Itaú Orange */
+    background: #FF7800; 
     color: #fff;
     width: 32px;
     height: 32px;
@@ -623,11 +615,11 @@ section {
     font-size: 1.05rem;
 }
 
-/* Timeline Layout inside Card */
+
 .timeline {
     display: flex;
     flex-direction: column;
-    gap: 15px; /* Reduzido de 30px */
+    gap: 15px;
     margin-top: auto;
 }
 
@@ -667,7 +659,7 @@ section {
     font-size: 0.9rem;
 }
 
-/* Single Event Card */
+
 .single-event {
     margin-top: auto;
 }
@@ -691,7 +683,7 @@ section {
     font-weight: 500;
 }
 
-/* Info Card Centered */
+
 .centered {
     align-items: center;
     justify-content: center;
@@ -742,9 +734,7 @@ section {
     transform: translateX(4px);
 }
 
-/* -------------------------------------
-   Location Section
--------------------------------------- */
+
 .location {
     background: var(--surface-800);
     border-top: 1px solid var(--border-color);
@@ -752,7 +742,7 @@ section {
 
 .location-grid {
     display: grid;
-    grid-template-columns: 1fr; /* Stack vertically */
+    grid-template-columns: 1fr;
     gap: 40px;
     align-items: center;
 }
@@ -819,7 +809,7 @@ section {
     border: 1px solid var(--border-color);
 }
 
-/* Visual trick to make map distinct */
+
 .map-frame::after {
     content: '';
     position: absolute;
@@ -836,9 +826,7 @@ section {
     filter: invert(100%) hue-rotate(180deg) brightness(80%) contrast(120%);
 }
 
-/* -------------------------------------
-   Modern Footer
--------------------------------------- */
+
 .modern-footer {
     background: var(--surface-900);
     border-top: 1px solid var(--border-color);
@@ -847,33 +835,33 @@ section {
 
 .footer-grid {
     display: grid;
-    grid-template-columns: 1fr; /* Stack vertically by default */
-    gap: 30px; /* Reduced gap */
+    grid-template-columns: 1fr;
+    gap: 30px;
     margin-bottom: 60px;
-    text-align: center; /* Centered for mobile */
+    text-align: center;
 }
 
 .brand-desc {
     color: var(--text-400);
-    margin: 20px auto 0; /* Centered with margin-top */
+    margin: 20px auto 0;
     max-width: 400px;
 }
 
 .modern-footer h4 {
     font-size: 1.2rem;
-    margin-bottom: 16px; /* Reduced from 24px */
+    margin-bottom: 16px;
 }
 
 .footer-social {
-    order: 1; /* First */
+    order: 1;
 }
 
 .footer-brand {
-    order: 2; /* Second */
+    order: 2;
 }
 
 .footer-links {
-    order: 3; /* Third */
+    order: 3;
 }
 
 .footer-links ul {
@@ -929,9 +917,7 @@ section {
     font-size: 0.9rem;
 }
 
-/* -------------------------------------
-   Animations & Reveals
--------------------------------------- */
+
 .reveal {
     opacity: 0;
     transform: translateY(30px);
@@ -955,9 +941,7 @@ section {
     100% { transform: translateY(15px); opacity: 0;}
 }
 
-/* -------------------------------------
-   Dízimos e Ofertas Section
--------------------------------------- */
+
 .offerings {
     background: var(--surface-800);
 }
@@ -969,7 +953,7 @@ section {
     margin-top: 40px;
 }
 
-/* Pix Card Styling */
+
 .pix-card {
     background: rgba(255, 255, 255, 0.02);
     border: 1px solid var(--border-color);
@@ -1069,13 +1053,13 @@ section {
 }
 
 .copy-btn.copied {
-    background: #10b981; /* Green */
+    background: #10b981;
     color: white;
 }
 
-/* Bank Card Styling (Itaú) */
+
 .bank-card {
-    background: #003399; /* Itaú Blue */
+    background: #003399;
     border-radius: var(--radius-lg);
     padding: 40px;
     color: white;
@@ -1135,9 +1119,7 @@ section {
     font-weight: 600;
 }
 
-/* -------------------------------------
-   Responsive Design
--------------------------------------- */
+
 @media (max-width: 1024px) {
     .map-frame {
         height: 400px;
