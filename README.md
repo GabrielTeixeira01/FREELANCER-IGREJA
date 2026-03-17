@@ -5,3 +5,9 @@ Para a etapa de deploy e publicação do projeto, utilizei a plataforma Netlify,
 Coloquei todos os links de acesso da igreja, Instagram, eventos e etc, assim facilitando o acesso de pesquisa para os visitantes.
 
 Foi uma experiência muito especial poder usar a tecnologia para contribuir com algo que faz parte da minha vida. 👨‍💻
+
+
+
+https://github.com/user-attachments/assets/94a57f18-c770-402b-84b0-6ca0c721af53
+
+
